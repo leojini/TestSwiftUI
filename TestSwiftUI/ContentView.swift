@@ -8,14 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showing = false
+    @State private var showingSheet = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            TabView1()
+                .tabItem({
+                    Image(systemName: "message")
+                    Text("메세지")
+                })
+            TabView2()
+                .tabItem({
+                    Image(systemName: "phone")
+                    Text("전화")
+                })
+            TabView3()
+                .tabItem({
+                    Image(systemName: "envelope")
+                    Text("편지")
+                })
         }
-        .padding()
+        .background(.blue)
     }
 }
 

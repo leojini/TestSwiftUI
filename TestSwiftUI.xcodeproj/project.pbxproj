@@ -14,6 +14,9 @@
 		AD5A9BFB2B6523B900AA9ECD /* TestSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A9BFA2B6523B900AA9ECD /* TestSwiftUITests.swift */; };
 		AD5A9C052B6523B900AA9ECD /* TestSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A9C042B6523B900AA9ECD /* TestSwiftUIUITests.swift */; };
 		AD5A9C072B6523B900AA9ECD /* TestSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A9C062B6523B900AA9ECD /* TestSwiftUIUITestsLaunchTests.swift */; };
+		AD83AC852B6757C200E98A2B /* TabView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD83AC842B6757C200E98A2B /* TabView1.swift */; };
+		AD83AC882B6757EE00E98A2B /* TabView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD83AC872B6757EE00E98A2B /* TabView2.swift */; };
+		AD83AC8A2B6757FA00E98A2B /* TabView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD83AC892B6757FA00E98A2B /* TabView3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		AD5A9C002B6523B900AA9ECD /* TestSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5A9C042B6523B900AA9ECD /* TestSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftUIUITests.swift; sourceTree = "<group>"; };
 		AD5A9C062B6523B900AA9ECD /* TestSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD83AC842B6757C200E98A2B /* TabView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView1.swift; sourceTree = "<group>"; };
+		AD83AC872B6757EE00E98A2B /* TabView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView2.swift; sourceTree = "<group>"; };
+		AD83AC892B6757FA00E98A2B /* TabView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		AD5A9BE82B6523B800AA9ECD /* TestSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				AD83AC862B6757CE00E98A2B /* TabItem */,
 				AD5A9BE92B6523B800AA9ECD /* TestSwiftUIApp.swift */,
 				AD5A9BEB2B6523B800AA9ECD /* ContentView.swift */,
 				AD5A9BED2B6523B900AA9ECD /* Assets.xcassets */,
@@ -125,6 +132,16 @@
 				AD5A9C062B6523B900AA9ECD /* TestSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = TestSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		AD83AC862B6757CE00E98A2B /* TabItem */ = {
+			isa = PBXGroup;
+			children = (
+				AD83AC842B6757C200E98A2B /* TabView1.swift */,
+				AD83AC872B6757EE00E98A2B /* TabView2.swift */,
+				AD83AC892B6757FA00E98A2B /* TabView3.swift */,
+			);
+			path = TabItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD5A9BEC2B6523B800AA9ECD /* ContentView.swift in Sources */,
+				AD83AC8A2B6757FA00E98A2B /* TabView3.swift in Sources */,
+				AD83AC882B6757EE00E98A2B /* TabView2.swift in Sources */,
 				AD5A9BEA2B6523B800AA9ECD /* TestSwiftUIApp.swift in Sources */,
+				AD83AC852B6757C200E98A2B /* TabView1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
