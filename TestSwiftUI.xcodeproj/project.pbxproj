@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD22B6072B68D4C700EFF256 /* MyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22B6062B68D4C700EFF256 /* MyScreen.swift */; };
+		AD22B60E2B68D76900EFF256 /* TabViewModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22B60D2B68D76900EFF256 /* TabViewModel2.swift */; };
 		AD5A9BEA2B6523B800AA9ECD /* TestSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A9BE92B6523B800AA9ECD /* TestSwiftUIApp.swift */; };
 		AD5A9BEC2B6523B800AA9ECD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A9BEB2B6523B800AA9ECD /* ContentView.swift */; };
 		AD5A9BEE2B6523B900AA9ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5A9BED2B6523B900AA9ECD /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD22B6062B68D4C700EFF256 /* MyScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScreen.swift; sourceTree = "<group>"; };
+		AD22B60D2B68D76900EFF256 /* TabViewModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewModel2.swift; sourceTree = "<group>"; };
 		AD5A9BE62B6523B800AA9ECD /* TestSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5A9BE92B6523B800AA9ECD /* TestSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftUIApp.swift; sourceTree = "<group>"; };
 		AD5A9BEB2B6523B800AA9ECD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +81,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD22B6052B68D4B000EFF256 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AD22B6062B68D4C700EFF256 /* MyScreen.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AD22B6082B68D54800EFF256 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				AD22B60D2B68D76900EFF256 /* TabViewModel2.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
 		AD5A9BDD2B6523B800AA9ECD = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +120,7 @@
 		AD5A9BE82B6523B800AA9ECD /* TestSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				AD22B6052B68D4B000EFF256 /* Extension */,
 				AD83AC862B6757CE00E98A2B /* TabItem */,
 				AD5A9BE92B6523B800AA9ECD /* TestSwiftUIApp.swift */,
 				AD5A9BEB2B6523B800AA9ECD /* ContentView.swift */,
@@ -137,6 +158,7 @@
 		AD83AC862B6757CE00E98A2B /* TabItem */ = {
 			isa = PBXGroup;
 			children = (
+				AD22B6082B68D54800EFF256 /* VM */,
 				AD83AC842B6757C200E98A2B /* TabView1.swift */,
 				AD83AC872B6757EE00E98A2B /* TabView2.swift */,
 				AD83AC892B6757FA00E98A2B /* TabView3.swift */,
@@ -274,11 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD22B60E2B68D76900EFF256 /* TabViewModel2.swift in Sources */,
 				AD5A9BEC2B6523B800AA9ECD /* ContentView.swift in Sources */,
 				AD83AC8A2B6757FA00E98A2B /* TabView3.swift in Sources */,
 				AD83AC882B6757EE00E98A2B /* TabView2.swift in Sources */,
 				AD5A9BEA2B6523B800AA9ECD /* TestSwiftUIApp.swift in Sources */,
 				AD83AC852B6757C200E98A2B /* TabView1.swift in Sources */,
+				AD22B6072B68D4C700EFF256 /* MyScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
